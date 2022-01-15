@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9973086278F27F900B4F50D /* Ps5ConceptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9973085278F27F900B4F50D /* Ps5ConceptApp.swift */; };
+		B9973088278F27F900B4F50D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9973087278F27F900B4F50D /* ContentView.swift */; };
+		B997308A278F27FD00B4F50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9973089278F27FD00B4F50D /* Assets.xcassets */; };
+		B997308D278F27FD00B4F50D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B997308C278F27FD00B4F50D /* Preview Assets.xcassets */; };
+		B997309D278F46F200B4F50D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9973097278F405F00B4F50D /* Montserrat-Black.ttf */; };
+		B997309E278F46F400B4F50D /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B997309A278F405F00B4F50D /* Montserrat-Bold.ttf */; };
+		B997309F278F46F700B4F50D /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9973099278F405F00B4F50D /* Montserrat-ExtraBold.ttf */; };
+		B99730A0278F46FA00B4F50D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9973098278F405F00B4F50D /* Montserrat-Regular.ttf */; };
+		B99730A2278F485D00B4F50D /* CardBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99730A1278F485D00B4F50D /* CardBox.swift */; };
+		B99730A4278F48D400B4F50D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99730A3278F48D400B4F50D /* Data.swift */; };
+		B99730A7278F596500B4F50D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99730A6278F596500B4F50D /* DetailsView.swift */; };
+		B99730A9278F5A2B00B4F50D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99730A8278F5A2B00B4F50D /* HomeView.swift */; };
+		B9C73263278F74AD008D76A8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C73262278F74AC008D76A8 /* TabBar.swift */; };
+		B9C73265278F7FC0008D76A8 /* ItemPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C73264278F7FC0008D76A8 /* ItemPS.swift */; };
+		B9FA671627917A3600C80107 /* Druk Wide Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9FA671527917A3600C80107 /* Druk Wide Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9973082278F27F900B4F50D /* Ps5Concept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ps5Concept.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9973085278F27F900B4F50D /* Ps5ConceptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ps5ConceptApp.swift; sourceTree = "<group>"; };
+		B9973087278F27F900B4F50D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9973089278F27FD00B4F50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B997308C278F27FD00B4F50D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9973097278F405F00B4F50D /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		B9973098278F405F00B4F50D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B9973099278F405F00B4F50D /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B997309A278F405F00B4F50D /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B99730A1278F485D00B4F50D /* CardBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBox.swift; sourceTree = "<group>"; };
+		B99730A3278F48D400B4F50D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B99730A6278F596500B4F50D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		B99730A8278F5A2B00B4F50D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B9C73262278F74AC008D76A8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		B9C73264278F7FC0008D76A8 /* ItemPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPS.swift; sourceTree = "<group>"; };
+		B9FA671527917A3600C80107 /* Druk Wide Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Druk Wide Bold.ttf"; path = "../../../../../Downloads/OnlineWebFonts_COM_06d00209bed2a9f05083faea7675647d/Druk Wide Bold/Druk Wide Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B997307F278F27F900B4F50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9973079278F27F900B4F50D = {
+			isa = PBXGroup;
+			children = (
+				B9973084278F27F900B4F50D /* Ps5Concept */,
+				B9973083278F27F900B4F50D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9973083278F27F900B4F50D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9973082278F27F900B4F50D /* Ps5Concept.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9973084278F27F900B4F50D /* Ps5Concept */ = {
+			isa = PBXGroup;
+			children = (
+				B997309C278F45E500B4F50D /* Resources */,
+				B9973085278F27F900B4F50D /* Ps5ConceptApp.swift */,
+				B9973087278F27F900B4F50D /* ContentView.swift */,
+				B99730A5278F592A00B4F50D /* Views */,
+				B99730A3278F48D400B4F50D /* Data.swift */,
+				B9973089278F27FD00B4F50D /* Assets.xcassets */,
+				B997308B278F27FD00B4F50D /* Preview Content */,
+			);
+			path = Ps5Concept;
+			sourceTree = "<group>";
+		};
+		B997308B278F27FD00B4F50D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B997308C278F27FD00B4F50D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B997309C278F45E500B4F50D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9973097278F405F00B4F50D /* Montserrat-Black.ttf */,
+				B997309A278F405F00B4F50D /* Montserrat-Bold.ttf */,
+				B9973099278F405F00B4F50D /* Montserrat-ExtraBold.ttf */,
+				B9973098278F405F00B4F50D /* Montserrat-Regular.ttf */,
+				B9FA671527917A3600C80107 /* Druk Wide Bold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B99730A5278F592A00B4F50D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B99730A6278F596500B4F50D /* DetailsView.swift */,
+				B99730A8278F5A2B00B4F50D /* HomeView.swift */,
+				B99FD6E92792F94400D51E61 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B99FD6E92792F94400D51E61 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B99730A1278F485D00B4F50D /* CardBox.swift */,
+				B9C73264278F7FC0008D76A8 /* ItemPS.swift */,
+				B9C73262278F74AC008D76A8 /* TabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9973081278F27F900B4F50D /* Ps5Concept */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9973090278F27FD00B4F50D /* Build configuration list for PBXNativeTarget "Ps5Concept" */;
+			buildPhases = (
+				B997307E278F27F900B4F50D /* Sources */,
+				B997307F278F27F900B4F50D /* Frameworks */,
+				B9973080278F27F900B4F50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ps5Concept;
+			productName = Ps5Concept;
+			productReference = B9973082278F27F900B4F50D /* Ps5Concept.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B997307A278F27F900B4F50D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B9973081278F27F900B4F50D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B997307D278F27F900B4F50D /* Build configuration list for PBXProject "Ps5Concept" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9973079278F27F900B4F50D;
+			productRefGroup = B9973083278F27F900B4F50D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9973081278F27F900B4F50D /* Ps5Concept */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9973080278F27F900B4F50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99730A0278F46FA00B4F50D /* Montserrat-Regular.ttf in Resources */,
+				B997309F278F46F700B4F50D /* Montserrat-ExtraBold.ttf in Resources */,
+				B997309E278F46F400B4F50D /* Montserrat-Bold.ttf in Resources */,
+				B997308D278F27FD00B4F50D /* Preview Assets.xcassets in Resources */,
+				B997308A278F27FD00B4F50D /* Assets.xcassets in Resources */,
+				B9FA671627917A3600C80107 /* Druk Wide Bold.ttf in Resources */,
+				B997309D278F46F200B4F50D /* Montserrat-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B997307E278F27F900B4F50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9973088278F27F900B4F50D /* ContentView.swift in Sources */,
+				B99730A7278F596500B4F50D /* DetailsView.swift in Sources */,
+				B99730A4278F48D400B4F50D /* Data.swift in Sources */,
+				B99730A9278F5A2B00B4F50D /* HomeView.swift in Sources */,
+				B9C73265278F7FC0008D76A8 /* ItemPS.swift in Sources */,
+				B9973086278F27F900B4F50D /* Ps5ConceptApp.swift in Sources */,
+				B99730A2278F485D00B4F50D /* CardBox.swift in Sources */,
+				B9C73263278F74AD008D76A8 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B997308E278F27FD00B4F50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B997308F278F27FD00B4F50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9973091278F27FD00B4F50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ps5Concept/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ps5Concept/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracl9.Ps5Concept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9973092278F27FD00B4F50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ps5Concept/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ps5Concept/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracl9.Ps5Concept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B997307D278F27F900B4F50D /* Build configuration list for PBXProject "Ps5Concept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B997308E278F27FD00B4F50D /* Debug */,
+				B997308F278F27FD00B4F50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9973090278F27FD00B4F50D /* Build configuration list for PBXNativeTarget "Ps5Concept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9973091278F27FD00B4F50D /* Debug */,
+				B9973092278F27FD00B4F50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B997307A278F27F900B4F50D /* Project object */;
+}
